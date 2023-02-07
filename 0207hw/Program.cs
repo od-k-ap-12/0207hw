@@ -10,6 +10,12 @@ namespace _0207hw
     {
         static void Main(string[] args)
         {
+            Website website = new Website("name", "path", "description", "ip");
+            website.Print();
+            Magazine magazine = new Magazine("name", 1999, "description", "phone","email");
+            website.Print();
+            Shop shop = new Shop("name", "address", "description", "phone","email");
+            website.Print();
         }
     }
 }
